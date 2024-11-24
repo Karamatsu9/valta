@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      setInterval(
+        () => {
+          let gambarUtama = document.querySelectorAll("#gambarUtama")
+          for (let index = 0; index < gambarUtama.length; index++) {
+            gambarUtama[0].src ="./src/assets/palu.webp"
+            gambarUtama[1].src ="./src/assets/screwdriver.jpg"
+            gambarUtama[2].src ="./src/assets/Drill_Impact.jpg"
+            gambarUtama[3].src ="./src/assets/compressor.webp"
+            gambarUtama[4].src ="./src/assets/tang.webp"
+            gambarUtama[5].src ="./src/assets/bolt_cutter.webp"
+            gambarUtama[6].src ="./src/assets/100_set.jpg"
+            gambarUtama[7].src ="./src/assets/28_pack.webp"
+            gambarUtama[8].src ="./src/assets/Jack_hammer.webp"
+            gambarUtama[9].src ="./src/assets/Nailgun.jpg"
+            gambarUtama[10].src ="./src/assets/impact.jpeg"
+            gambarUtama[11].src ="./src/assets/wheel.webp"
+
+          }
+        },11
+      )
+    </script>
+  </body>
+</html>
