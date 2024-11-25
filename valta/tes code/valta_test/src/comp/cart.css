@@ -83,7 +83,7 @@
 .cart .container .box .detail .info h3
 {
     margin-top: 10px;
-    color: #232323;
+    color: #fff;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -92,7 +92,7 @@
 .cart .container .box .detail .info p
 {
     margin-top: 10px;
-    color: #232323;
+    color: #fff;
     text-transform: uppercase;
 }
 .cart .container .box .detail .quantity
